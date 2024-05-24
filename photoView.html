@@ -14,7 +14,9 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -35,7 +37,8 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary m-1" role="status">
             <span class="sr-only">Loading...</span>
         </div>
@@ -50,21 +53,30 @@
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-light ps-5 pe-0 d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center">
-                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: Mon - Tues : 6.00 am - 10.00 pm, Sunday Closed </small>
+    <div style="padding: 0px;" class="container-fluid bg-light pe-0 d-none d-lg-block" >
+        <div class="row gx-0" >
+            
+            <div class="col-md-6" style="display: flex; ">
+                <div class="position-relative d-inline-flex bg-primary text-white px-5">
+                    <div class="me-3 pe-3 border-end py-2" >
+                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@ibcaedu.com</p>
+                    </div>
+                    <div class="py-2">
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+91 70455267972</p>
+                    </div>
                 </div>
+                <div class="top-shape1 position-relative d-inline-flex bg-primary text-white " ></div>
             </div>
+
             <div class="col-md-6 text-center text-lg-end">
                 <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
                     <div class="me-3 pe-3 border-end py-2">
-                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@example.com</p>
+                        <p class="m-0"><i class="fa fa-user"></i> Center Login</p>
                     </div>
                     <div class="py-2">
-                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</p>
+                        <p class="m-0"><i class="fa fa-user"></i> Admin Login</p>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -72,10 +84,12 @@
     <!-- Topbar End -->
 
 
-      <!-- Navbar Start -->
-      <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
-        <a href="index.html" class="navbar-brand p-0"><div class="logo">
-            <img src="img/1.jpg" height="100" width="270"></div>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+        <a href="index.html" class="navbar-brand p-0">
+            <div class="logo">
+                <img src="img/1.jpg" height="100" width="270">
+            </div>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -83,7 +97,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
-                 <div class="nav-item dropdown">
+                <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
                     <div class="dropdown-menu m-0">
                         <a href="about.html" class="dropdown-item">About Us</a>
@@ -93,7 +107,7 @@
                         <a href="certificate.html" class="dropdown-item">ISO 9001 : 2015 Certificate</a>
                     </div>
                 </div>
-                
+
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Course</a>
                     <div class="dropdown-menu m-0">
@@ -112,8 +126,10 @@
                         <a href="admisionVarification.html" class="dropdown-item">Admission Verification</a>
                         <a href="certificatVarification.html" class="dropdown-item">Certificate Verification</a>
                         <a href="markshitVarification.html" class="dropdown-item">Marksheet Verification</a>
-                        <a href="typingCertificatVarification.html" class="dropdown-item">Typing Certificate Verification</a>
-                        <a href="beautisionVarificationCertificate.html" class="dropdown-item">Beautician & Training Verification</a>
+                        <a href="typingCertificatVarification.html" class="dropdown-item">Typing Certificate
+                            Verification</a>
+                        <a href="beautisionVarificationCertificate.html" class="dropdown-item">Beautician & Training
+                            Verification</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
@@ -137,7 +153,8 @@
                 </div>
 
             </div>
-            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i
+                    class="fa fa-search"></i></button>
             <a href="studentLogin.html" class="btn btn-primary py-2 px-4 ms-3">Student Login</a>
         </div>
     </nav>
@@ -149,11 +166,13 @@
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
                 <div class="modal-header border-0">
-                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
                 <div class="modal-body d-flex align-items-center justify-content-center">
                     <div class="input-group" style="max-width: 600px;">
-                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <input type="text" class="form-control bg-transparent border-primary p-3"
+                            placeholder="Type search keyword">
                         <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
                     </div>
                 </div>
@@ -176,79 +195,155 @@
     </div>
     <!-- Hero End -->
 
-<!--PHOTO VIEWS-->
+    <!--PHOTO VIEWS-->
+    <div style="width: 100%; height: auto;">
+        <div style="width: auto; text-align: center; height: full; padding: 10px;">
 
-<div class="gallary1">
-    <div style="place-content: center; background-image: url(./imgs/programming.jpeg); background-size: cover; background-position: center;" class="gallaryImg"></div>
-    <div style="place-content: center; background-image: url(./imgs/programming.jpeg); background-size: cover; background-position: center;" class="gallaryImg"></div>
-    <div style="place-content: center; background-image: url(./imgs/programming.jpeg); background-size: cover; background-position: center;" class="gallaryImg"></div>
-  </div>
+        
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/31.jpeg" alt="" style="width: 100%;">
+            </div>
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/32.jpeg" alt="" style="width: 100%;">
+            </div>
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/45.jpeg" alt="" style="width: 100%;">
+            </div>
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/34.jpeg" alt="" style="width: 100%;">
+            </div>
 
-  <div class="gallary1 gallary12">
-    <div style="place-content: center; background-image: url(./imgs/programming.jpeg); background-size: cover; background-position: center;" class="gallaryImg"></div>
-    <div style="place-content: center; background-image: url(./imgs/programming.jpeg); background-size: cover; background-position: center;" class="gallaryImg"></div>
-    <div style="place-content: center; background-image: url(./imgs/programming.jpeg); background-size: cover; background-position: center;" class="gallaryImg"></div>
-  </div>
-  <!--PHOTO VIEWS-->
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/41.jpeg" alt="" style="width: 100%;">
+            </div>
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/35.jpeg" alt="" style="width: 100%;">
+            </div>
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/36.jpeg" alt="" style="width: 100%;">
+            </div>
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/37.jpeg" alt="" style="width: 100%;">
+            </div>
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/38.jpeg" alt="" style="width: 100%;">
+            </div>
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/39.jpeg" alt="" style="width: 100%;">
+            </div>
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/40.jpeg" alt="" style="width: 100%;">
+            </div>
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/41.jpeg" alt="" style="width: 100%;">
+            </div>
 
-   <!-- Footer Start -->
-   <div style="margin-top: 50px;" class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px;">
-    <div class="container pt-5">
-        <div class="row g-5 pt-4">
-            <div class="col-lg-3 col-md-6">
-                <h3 class="text-white mb-4">Quick Links</h3>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                    <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                    <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Registrations verification  </a>
-                    <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Result Verification</a>
-                    <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Student Login</a>
-                    <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Admission Form</a>
-                    <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact For Franchisee</a>
-                    <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Director's Message</a>
-                    <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Mentors</a>
-                    <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Gallery</a>
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/42.jpeg" alt="" style="width: 100%;">
+            </div>
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/43.jpeg" alt="" style="width: 100%;">
+            </div>
+            <div
+                style=" box-shadow: 1px 0px 4px .1px black; display: inline-block;  place-content: center; padding: 4px; margin:9px; overflow : hidden; width:300px; height:300px;">
+                <img class="img" src="./ibrainImg/44.jpeg" alt="" style="width: 100%;">
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!--PHOTO VIEWS-->
+
+    <!-- Footer Start -->
+    <div style="margin-top: 50px;" class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s"
+        style="margin-top: -75px;">
+        <div class="container pt-5">
+            <div class="row g-5 pt-4">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Quick Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About
+                            Us</a>
+                        <a class="text-light mb-2" href="#"><i
+                                class="bi bi-arrow-right text-primary me-2"></i>Registrations verification </a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Result
+                            Verification</a>
+                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Student
+                            Login</a>
+                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Admission
+                            Form</a>
+                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact For
+                            Franchisee</a>
+                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Director's
+                            Message</a>
+                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our
+                            Mentors</a>
+                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Gallery</a>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6">
-                <h3 class="text-white mb-4">Corporate Office</h3>
-                <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>I-Brain Computer Academy Pvt. Ltd.</p>
-                <p class="mb-2">House No.777/7, Ward No.33, Mohan Nagar Chapra Bihar</p>
-                <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 7045267972</p>
-            </div>
-             <div class="col-lg-3 col-md-6">
-                <h3 class="text-white mb-4">Regional Office</h3>
-                <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>I-Brain Computer Academy Pvt. Ltd.</p>
-                <p class="mb-2">Kachhari Station Road, Chapra Bihar (841301)</p>
-                <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@ibcaedu.com</p>
-                <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 7045267972</p>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h3 class="text-white mb-4">Follow Us</h3>
-                <div class="d-flex">
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Corporate Office</h3>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>I-Brain Computer Academy Pvt. Ltd.
+                    </p>
+                    <p class="mb-2">House No.777/7, Ward No.33, Mohan Nagar Chapra Bihar</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 7045267972</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Regional Office</h3>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>I-Brain Computer Academy Pvt. Ltd.
+                    </p>
+                    <p class="mb-2">Kachhari Station Road, Chapra Bihar (841301)</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@ibcaedu.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 7045267972</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Follow Us</h3>
+                    <div class="d-flex">
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i
+                                class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i
+                                class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i
+                                class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i
+                                class="fab fa-instagram fw-normal"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="container-fluid text-light py-4" style="background: #051225;">
-    <div class="container">
-        <div class="row g-0">
-            <div class="col-md-6 text-center text-md-start">
-                <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="#">I-BRAIN COMPUTER ACADEMY</a>. All Rights Reserved.</p>
-            </div>
-            <div class="col-md-6 text-center text-md-end">
-                <p class="mb-0">Powered by <a class="text-white border-bottom" href="#">FOXDIGITAL GROUPS</a></p>
+    <div class="container-fluid text-light py-4" style="background: #051225;">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="#">I-BRAIN COMPUTER ACADEMY</a>.
+                        All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Powered by <a class="text-white border-bottom" href="#">FOXDIGITAL GROUPS</a></p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Footer End -->
+    <!-- Footer End -->
 
 
     <!-- Back to Top -->

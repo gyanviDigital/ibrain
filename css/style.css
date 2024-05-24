@@ -91,6 +91,17 @@ h6,
     z-index: 99;
 }
 
+.top-shape1{
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 100%;
+    top: 0;
+    left: -17px;
+    background: var(--primary);
+    transform: skew(40deg);
+}
+
 .top-shape::before {
     position: absolute;
     content: "";
@@ -332,4 +343,67 @@ h6,
     height: 160px;
     width: 100px;
   }
+}
+
+
+.maintag {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mainBox {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-color: pink;
+}
+
+.imgBox {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    transition: 2s ease;
+    background-color: orange;
+}
+
+.sliderImg {
+    width: 100%;
+    height: 100%;
+}
+
+.slidBtn2{
+    background-color: rgb(12, 207, 28);
+    width: 100px;
+    border: none;
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 1px 0px 10px 1px rgb(0, 0, 0);
+    padding: 3px 5px;
+}
+.slidBtn2:active{
+    background-color: green;
+transform: scale(1.3);
+
+}
+
+
+.lImg{
+    transition: 1.5s ease;
+}
+
+.lImg:hover{
+    transform: translateY(-100px);
+}
+
+.downloadBtn:hover{
+box-shadow: 1px 0px 10px 2px rgb(14, 228, 14);
+}
+
+.downloadBtn:active{
+    transform: scale(1.5);
 }

@@ -49,21 +49,30 @@
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-light ps-5 pe-0 d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center">
-                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: Mon - Tues : 6.00 am - 10.00 pm, Sunday Closed </small>
+    <div style="padding: 0px;" class="container-fluid bg-light pe-0 d-none d-lg-block" >
+        <div class="row gx-0" >
+            
+            <div class="col-md-6" style="display: flex; ">
+                <div class="position-relative d-inline-flex bg-primary text-white px-5">
+                    <div class="me-3 pe-3 border-end py-2" >
+                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@ibcaedu.com</p>
+                    </div>
+                    <div class="py-2">
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+91 70455267972</p>
+                    </div>
                 </div>
+                <div class="top-shape1 position-relative d-inline-flex bg-primary text-white " ></div>
             </div>
+
             <div class="col-md-6 text-center text-lg-end">
                 <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
                     <div class="me-3 pe-3 border-end py-2">
-                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@example.com</p>
+                        <p class="m-0"><i class="fa fa-user"></i> Center Login</p>
                     </div>
                     <div class="py-2">
-                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</p>
+                        <p class="m-0"><i class="fa fa-user"></i> Admin Login</p>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -178,10 +187,23 @@
 
 <div class="" style="height: full; padding:40px; display: grid; place-content: center; place-items: center;">
 <div>
-    <h1> <span style="color: orange;">ADDMISION</span> <span style="color: blue;">VARIFICATION</span> </h1>
+    <h1> <span style="color: orange;">ADDMISION</span> <span style="color: blue;">ENQUERY</span> </h1>
     <form action="#" method="" style="text-align: center;">
-        <input placeholder="Username" name="" style="width: 300px; margin-top: 10px; padding: 4px; border: 1px solid black; outline: none; border-radius: 5px;" type="name" class=""> <br>
-        <input placeholder="Registrations No . " name="" style="width: 300px; margin-top: 10px; padding: 4px; border: 1px solid black; outline: none; border-radius: 5px;" type="text" class=""> <br>
+        <input required placeholder="Student Name" name="student_name" style="width: 300px; margin-top: 10px; padding: 4px; border: 1px solid black; outline: none; border-radius: 5px;" type="text" class=""> <br>
+        <input required placeholder="Father Name" name="father_name" style="width: 300px; margin-top: 10px; padding: 4px; border: 1px solid black; outline: none; border-radius: 5px;" type="text" class=""> <br>
+        <input required placeholder="Mother Name" name="Mother_name" style="width: 300px; margin-top: 10px; padding: 4px; border: 1px solid black; outline: none; border-radius: 5px;" type="text" class=""> <br>
+        <input required placeholder="Address" name="address" style="width: 300px; margin-top: 10px; padding: 4px; border: 1px solid black; outline: none; border-radius: 5px;" type="text" class=""> <br>
+        <input required placeholder="Mobile no." name="mobile_no" style="width: 300px; margin-top: 10px; padding: 4px; border: 1px solid black; outline: none; border-radius: 5px;" type="number" class=""> <br>
+       <select name="select" id="select" style="width: 300px; margin-top: 10px; padding: 4px; border: 1px solid black; outline: none; border-radius: 5px;">
+        <option value="DCA">DCA</option>
+        <option value="BCA">BCA</option>
+        <option value="MCA">MCA</option>
+        <option value="TAILLY">TAILLY</option>
+        <option value="PROGRAMMING">PROGRAMMING</option>
+       
+       </select>
+       <br>
+
         <input style="margin-top: 20px; width: 100px; background-color: green; border-radius: 4px; color: white; font-weight: 600; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; " type="submit" value="submit" class="">
     </form>
 </div>
