@@ -13,7 +13,9 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -34,8 +36,9 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary m-1" role="status">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-dark m-1" role="status">
             <span class="sr-only">Loading...</span>
         </div>
         <div class="spinner-grow text-dark m-1" role="status">
@@ -48,30 +51,41 @@
     <!-- Spinner End -->
 
     <!-- Topbar Start -->
-    <div style="padding: 0px;" class="container-fluid bg-light pe-0 d-none d-lg-block" >
-        <div class="row gx-0" >
-            
-            <div class="col-md-6" style="display: flex; ">
-                <div class="position-relative d-inline-flex bg-primary text-white px-5">
-                    <div class="me-3 pe-3 border-end py-2" >
+    <div style="padding: 0px; " class="container-fluid bg-dark pe-0 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class=""
+                style=" position: absolute; height:35px; padding-left:35px ;  display: flex; place-content: center; place-items: center;">
+                <a style="color: white;" class="btn btn-lg btn-lg-square rounded me-2"
+                    href="https://www.facebook.com/profile.php?id=100072648942811&mibextid=ZbWKwL"><i
+                        class="fab fa-facebook-f fw-normal"></i></a>
+                <a style="color: white;" class="btn btn-lg btn-lg-square rounded  me-2"
+                    href="https://www.instagram.com/reel/C6L2xx6vmuS/?igsh=cG41Nm1ma3ZjcTZq"><i
+                        class="fab fa-instagram fw-normal"></i></a>
+                <a style="color: white;" class="btn btn-lg btn-lg-square rounded"
+                    href="https://www.youtube.com/@ibraincomputeracademy"><i class="bi bi-youtube"></i></a>
+            </div>
+            <div class="col-md-6" style="display: flex;  ">
+                <div style="background: #FC9800;" class="position-relative d-inline-flex  text-white px-5">
+                    <div class="me-3 pe-3 border-end py-2">
                         <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@ibcaedu.com</p>
                     </div>
                     <div class="py-2">
-                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+91 70455267972</p>
+                        <a style="color: white; text-decoration: none;" href="callto:7045267972"><p class="m-0"><i class="fa fa-phone-alt me-2"></i>+91 7045267972</p></a>
                     </div>
                 </div>
-                <div class="top-shape1 position-relative d-inline-flex bg-primary text-white " ></div>
+                <div style="background: #FC9800;" class="top-shape1 position-relative d-inline-flex  text-white "></div>
             </div>
 
             <div class="col-md-6 text-center text-lg-end">
-                <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
+                <div style="background: #FC9800;"
+                    class="position-relative d-inline-flex align-items-center  text-white top-shape px-5">
                     <div class="me-3 pe-3 border-end py-2">
                         <p class="m-0"><i class="fa fa-user"></i> Center Login</p>
                     </div>
                     <div class="py-2">
                         <p class="m-0"><i class="fa fa-user"></i> Admin Login</p>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -80,18 +94,22 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
-        <a href="index.html" class="navbar-brand p-0"><div class="logo">
-            <img src="img/1.jpg" height="100" width="270"></div>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm">
+        <a href="index.html" class="navbar-brand p-0">
+            <div class="logo">
+                <img src="img/1.jpg" height="100" width="250">
+            </div>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                <a href="index.html" class="nav-item nav-link active"
+                    style="text-transform: uppercase; font-size:small; ">Home</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                        style="text-transform: uppercase; font-size:small; ">About us</a>
                     <div class="dropdown-menu m-0">
                         <a href="about.html" class="dropdown-item">About Us</a>
                         <a href="team.html" class="dropdown-item">Company Profile</a>
@@ -100,9 +118,10 @@
                         <a href="certificate.html" class="dropdown-item">ISO 9001 : 2015 Certificate</a>
                     </div>
                 </div>
-                
+
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Course</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                        style="text-transform: uppercase; font-size:small; ">Course</a>
                     <div class="dropdown-menu m-0">
                         <a href="course.html" class="dropdown-item">Computer Courses</a>
                         <a href="programingLanguage.html" class="dropdown-item">Programming Language</a>
@@ -113,29 +132,47 @@
                 </div>
 
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Student Zone</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                        style="text-transform: uppercase; font-size:small; ">Student Zone</a>
                     <div class="dropdown-menu m-0">
-                        <a href="addmisionForm.html" class="dropdown-item">Admission Form</a>
+                        <!-- <a href="addmisionForm.html" class="dropdown-item">Admission Form</a> -->
                         <a href="admisionVarification.html" class="dropdown-item">Admission Verification</a>
                         <a href="certificatVarification.html" class="dropdown-item">Certificate Verification</a>
                         <a href="markshitVarification.html" class="dropdown-item">Marksheet Verification</a>
-                        <a href="typingCertificatVarification.html" class="dropdown-item">Typing Certificate Verification</a>
-                        <a href="beautisionVarificationCertificate.html" class="dropdown-item">Beautician & Training Verification</a>
+                        <a href="typingCertificatVarification.html" class="dropdown-item">Typing Certificate
+                            Verification</a>
+                        <a href="beautisionVarificationCertificate.html" class="dropdown-item">Beautician & Training
+                            Verification</a>
                     </div>
                 </div>
+
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Franchisee</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                        style="text-transform: uppercase; font-size:small; ">Ibca zone</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="markshite-certificate-semple.html" class="dropdown-item">Marksheet Certificate Sample</a>
+                        <a href="certificate-sample.html" class="dropdown-item">Certificate Sample</a>
+                        <a href="#" class="dropdown-item">I-D Card Sample</a>
+                        <a href="#" class="dropdown-item">Promotional Materials</a>
+                        <a href="#" class="dropdown-item">Study Material</a>
+                    </div>
+                </div>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                        style="text-transform: uppercase; font-size:small; ">Franchisee</a>
                     <div class="dropdown-menu m-0">
                         <a href="centerLogin.html" class="dropdown-item">Center Login</a>
                         <a href="franchisee.html" class="dropdown-item">Franchisee Form</a>
                         <a href="franchiseePrposal.html" class="dropdown-item">Franchisee Proposal </a>
-                        <a href="productService.html" class="dropdown-item">Product & Service</a>
-                        <a href="paymentBank.html" class="dropdown-item">Payment Bank Account </a>
+                        <a href="#" class="dropdown-item">Product & Service</a>
+                        <a href="# " class="dropdown-item">Payment Bank Account </a>
                         <a href="contactForFranchisee.html" class="dropdown-item">Contact For Franchisee </a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Gallery</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                        style="text-transform: uppercase; font-size:small; ">Gallery</a>
                     <div class="dropdown-menu m-0">
                         <a href="photoView.html" class="dropdown-item">Photo View</a>
                         <a href="videoView.html" class="dropdown-item">Video View</a>
@@ -144,8 +181,8 @@
                 </div>
 
             </div>
-            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
-            <a href="studentLogin.html" class="btn btn-primary py-2 px-4 ms-3">Student Login</a>
+            <a style="background: #FC9800; color: white; font: bold;" href="studentLogin.html"
+                class="btn  py-2 px-4 ms-3">Student Login</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -156,12 +193,15 @@
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
                 <div class="modal-header border-0">
-                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
                 <div class="modal-body d-flex align-items-center justify-content-center">
                     <div class="input-group" style="max-width: 600px;">
-                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
-                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                        <input type="text" class="form-control bg-transparent border-dark p-3"
+                            placeholder="Type search keyword">
+                        <button style="background: #FC9800; color: white; font: bold;" class="btn  px-4"><i
+                                class="bi bi-search"></i></button>
                     </div>
                 </div>
             </div>
@@ -212,14 +252,12 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     </div>
                 </div>
-            </div>               
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -234,20 +272,24 @@
             <div class="row gx-0">
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
                     <div class="bg-dark d-flex flex-column p-5" style="height: 300px;">
-                        <h3 class="text-white mb-3">Opening Hours</h3>
-                        <div class="d-flex justify-content-between text-white mb-3">
-                            <h6 class="text-white mb-0">Mon - Fri</h6>
-                            <p class="mb-0"> 6:00am - 9:00pm</p>
+                        <h3 class="text-white mb-3" style="text-align: center;">Opening Hours</h3>
+                        <div style="display: flex; place-content: center; place-items: center; text-align: center;"
+                            class=" text-white mb-3">
+                            <h6 style=" font-weight: 600;" class="text-white mb-0">Mon - Sat</h6>
                         </div>
-                        <div class="d-flex justify-content-between text-white mb-3">
-                            <h6 class="text-white mb-0">Saturday</h6>
+                        <div style="display: flex; place-content: center; place-items: center; text-align: center;"
+                            class=" text-white mb-3">
                             <p class="mb-0"> 6:00am - 7:00pm</p>
                         </div>
-                        <div class="d-flex justify-content-between text-white mb-3">
-                            <h6 class="text-white mb-0">Sunday</h6>
-                            <p class="mb-0"> 11:00am - 5:00pm</p>
+                        <div style="display: flex; place-content: center; place-items: center; text-align: center;"
+                            class=" text-white mb-3">
+                            <h6 style=" font-weight: 600;" class="text-white mb-0">Sunday</h6>
                         </div>
-                        <a class="btn btn-light" href="">Appointment</a>
+                        <div style="display: flex; place-content: center; place-items: center; text-align: center;"
+                            class=" text-white mb-3">
+                            <p style=" font-weight: 600;" class="mb-0">11:00am - 5:00pm</p>
+                        </div>
+
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
@@ -270,8 +312,9 @@
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
                     <div class="bg-dark d-flex flex-column p-5" style="height: 300px;">
                         <h3 class="text-white mb-3">Get Your Doubts Clear</h3>
-                        <p class="text-white">If you want more info about any course or faculty you can reach to us at here.</p>
-                        <h2 class="text-white mb-0">+91 7045267972</h2>
+                        <p class="text-white">If you want more info about any course or faculty you can reach to us at
+                            here.</p>
+                        <a style="color: white; text-decoration: none;" href="callto:7045267972"><h2 class="text-white mb-0">+91 7045267972</h2></a>
                     </div>
                 </div>
             </div>
@@ -279,6 +322,103 @@
     </div>
     <!-- Banner Start -->
 
+    <!--slider start-->
+    <div class="crousel_main_box">
+        <h1 style="text-align: center;">Latest News</h1>
+
+        <div class="crousel_multi_img" onmouseover="c_mouse_over()" onmouseleave="c_mouse_leave()">
+            <img src="./crousel_imgs/1.jpeg" alt="" class="crousel_img_all active">
+            <img src="https://4.bp.blogspot.com/-rAAM9FMomxA/WD7OHiWdmKI/AAAAAAAAAF8/Qw1HQh8Z8Hw9-PxgjRvFE2uEKlHZCr1uwCLcB/s1600/depositphotos_33290907-Seo-web-development-concept-web.jpg"
+                alt="" class="crousel_img_all">
+            <img src="https://static.vecteezy.com/system/resources/c_previews/000/523/378/original/web-development-application-design-coding-and-programming-on-laptop-and-smartphone-concept-with-programming-language-and-program-code-and-layout-on-screen-vector.jpg"
+                alt="" class="crousel_img_all">
+            <img src="" alt="" class="crousel_img_all">
+        </div>
+        <button onmouseover="c_mouse_over()" onclick="c_next()" class="c_next">Next</button>
+        <button onmouseover="c_mouse_over()" onclick="c_pre()" class="c_pre">Pre</button>
+    </div>
+    <!--slider javascript start-->
+    <script>
+        /* this is use for variables*/
+        var multi_imgcc = document.querySelectorAll(".crousel_img_all");
+        var count = 0;
+
+        /*auto slid function*/
+        function c_auto_slid() {
+            multi_imgcc[count].style.animation = 'c_next1 1s linear forwards';
+            if (count < multi_imgcc.length - 1) {
+                count++;
+            } else {
+                count = 0;
+            }
+            multi_imgcc[count].style.animation = 'c_next2 1s linear forwards';
+        }
+
+        /*this is for c_previouse btn*/
+        function c_pre_slid() {
+            multi_imgcc[count].style.animation = 'c_pre1 1s linear forwards';
+            if (count > 0) {
+                count--;
+            } else {
+                count = multi_imgcc.length - 1;
+            }
+            multi_imgcc[count].style.animation = 'c_pre2 1s linear forwards';
+
+        }
+
+        /*this is c_loop use for  auto slide img crousel*/
+        function c_loop() {
+            c_interval = setInterval(c_call_fun, 3000);
+            function c_call_fun() {
+                c_auto_slid();
+            }
+        }
+        c_loop();
+        /* mouse hover and mouse leave function use for stop and run auto slider*/
+        function c_mouse_over() {
+            clearInterval(c_interval);
+        }
+        function c_mouse_leave() {
+            c_loop();
+        }
+        /*c_next c_pre function*/
+        function c_next() {
+            c_auto_slid();
+        }
+        function c_pre() {
+            c_pre_slid();
+        }  
+    </script>
+    <!--slider code over-->
+    <!--5 main box start-->
+    <div class="wow fadeInUp" style="width: cover; height: 200px; " id="box-5-main">
+        <div class="box-5">
+            <img src="./logo-5/student.png" alt="" class="box-5-img">
+            <h4 style="text-align: center;" class="">753</h4>
+            <h3 style="text-align: center; margin-top: -15px;">Students</h3>
+        </div>
+        <div class="box-5">
+            <img src="./logo-5/daycare.png" alt="" class="box-5-img">
+            <h4 style="text-align: center;" class="">7</h4>
+            <h3 style="text-align: center; margin-top: -15px;">Institution</h3>
+        </div>
+        <div class="box-5">
+            <img src="./logo-5/education.png" alt="" class="box-5-img">
+            <h4 style="text-align: center;" class="">300</h4>
+            <h3 style="text-align: center; margin-top: -15px;">Courses</h3>
+        </div>
+        <div class="box-5">
+            <img src="./logo-5/map.png" alt="" class="box-5-img">
+            <h4 style="text-align: center;" class="">3</h4>
+            <h3 style="text-align: center; margin-top: -15px;">Districts</h3>
+        </div>
+        <div class="box-5">
+            <img src="./logo-5/global.png" alt="" class="box-5-img">
+            <h4 style="text-align: center;" class="">1</h4>
+            <h3 style="text-align: center; margin-top: -15px;">States</h3>
+        </div>
+
+    </div>
 
     <!-- About Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -286,25 +426,35 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title mb-4">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">About Us</h5>
+                        <h5 class="position-relative d-inline-block text-dark text-uppercase">About Us</h5>
                         <h1 class="display-5 mb-0">Chapra's Best Computer Class That You Can Trust</h1>
                     </div>
                     <h4 class="text-body fst-italic mb-4">I-BRAIN COMPUTER ACADEMY</h4>
-                    <p class="mb-4">This Educational Training Institute works with the goal of success for students. The Main Purpose of our Training Institute is to boost up the knowledge of students. We understand the requirement of students and according to requirements we try to provide the best training in less and affordable amount to those students. We have experienced trainers who provide training to the students with proper study material. We provide extra study material for the best practices that help the student in exploring their knowledge. we also take an interactive session daily where students can tell about their issues. Our training institute also offers to work with live projects that help the students to learn real world problems.</p>
+                    <p class="mb-4">i – Brain computer academy
+                        In the present age, computer becomes most essential both for official use as well as home use.
+                        So every person need to have computer knowledge. I Brain computer academy, was founded in 2021
+                        and began its journey with the sole mission to provide high quality services at affordable
+                        Prices to the masses. As part of our mission we have already shaped thousands of careers and
+                        changed peoples perception on programming, Accounts and Finance , Graphics design and animation
+                        etc. various education we follow the easy and updated technique of computer education. We also
+                        provide training for the school students of CBSE, BSEB, ICSE Boards of class 1 to 12 Computer
+                        Application and Computer Science
+                    </p>
                     <div class="row g-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Award Winning</h5>
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Professional Faculty</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-dark me-3"></i>Award Winning</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-dark me-3"></i>Professional Faculty
+                            </h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Doubt Sessions</h5>
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Fair Courses Fees</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-dark me-3"></i>Doubt Sessions</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-dark me-3"></i>Fair Courses Fees</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.png" style="object-fit: cover;">
+                    <div class="position-relative h-100" style=" display: grid; place-content: center; place-items: center;">
+                        <img src="./img/about.png" style="width: 400px; height: 400px;" alt="" class="">
                     </div>
                 </div>
             </div>
@@ -314,42 +464,38 @@
 
 
     <!-- Appointment Start -->
-    <div class="container-fluid bg-appointment my-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-6 py-5">
-                    <div class="py-5">
-                        <h1 class="display-5 text-white mb-4">Get Your Marksheet By Submitting The Details Here</h1>
-                        <p class="text-white mb-0">Easily get your marksheet from this pannel.</p>
-                    </div>
+    <div class="container-fluid bg-appointment my-5 wow fadeInUp" data-wow-delay="0.1s" style="padding: 40px;">
+        <div style=" place-content:center; place-items: center;">
+            <h1 class="" style="color: white; text-align: center; margin-bottom: 25px; ">Get Your Verified Details Here
+            </h1>
+            <div class="admission-var" style="width: 100%; ">
+                <div class="add-vari">
+                    <h5>ADMISSION VERIFICATION</h5>
+                    <form action="#" style="display: grid; padding: 20px; gap: 10px;">
+                        <input required class="add-input" type="number" name="admission_no"
+                            placeholder="Enter Your Addmision No.">
+                        <input required class="add-input" type="text" name="date_of_birth" placeholder="mm/dd/yyyy">
+                        <input class="add-input submit-btn bg-appointment" type="submit" name="submit" value="Submit">
+                    </form>
+
                 </div>
-                <div class="col-lg-6">
-                    <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
-                        <h1 class="text-white mb-4">Result Verification</h1>
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Reg No." style="height: 55px;">
-                                </div>
-                               
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Father's Name" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="email" class="form-control bg-light border-0" placeholder="Phone No." style="height: 55px;">
-                                    </div>
-                                </div>
-                               
-                                <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                <div class="add-vari">
+                    <h5>CERTIFICATE VERIFICATION</h5>
+                    <form action="#" style="display: grid; padding: 20px; gap: 10px;">
+                        <input required class="add-input" type="number" name="admission_no"
+                            placeholder="Enter Your Certificate No.">
+                        <input required class="add-input" type="text" name="date_of_birth" placeholder="mm/dd/yyyy">
+                        <input class="add-input submit-btn bg-appointment" type="submit" name="submit" value="Submit">
+                    </form>
+                </div>
+                <div class="add-vari">
+                    <h5>MARKSHEET VERIFICATION</h5>
+                    <form action="#" style="display: grid; padding: 20px; gap: 10px;">
+                        <input required class="add-input" type="number" name="admission_no"
+                            placeholder="Enter Your Marksheet No.">
+                        <input required class="add-input" type="text" name="date_of_birth" placeholder="mm/dd/yyyy">
+                        <input class="add-input submit-btn bg-appointment" type="submit" name="submit" value="Submit">
+                    </form>
                 </div>
             </div>
         </div>
@@ -369,7 +515,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="section-title mb-5">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Our Courses</h5>
+                        <h5 class="position-relative d-inline-block text-dark text-uppercase">Our Courses</h5>
                         <h1 class="display-5 mb-0">We Offer The Best Quality Computer Courses</h1>
                     </div>
                     <div class="row g-5">
@@ -378,7 +524,9 @@
                                 <img class="img-fluid" src="img/service-1.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <a href="#"> <h5 class="m-0">A.D.C.A</h5> </a>
+                                <a href="./adca.html">
+                                    <h5 class="m-0">A.D.C.A</h5>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.9s">
@@ -386,7 +534,9 @@
                                 <img class="img-fluid" src="img/service-2.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <a href="#"> <h5 class="m-0">D.C.A</h5> </a>
+                                <a href="./dca.html">
+                                    <h5 class="m-0">D.C.A</h5>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -400,7 +550,9 @@
                                 <img class="img-fluid" src="img/service-3.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <a href="#"> <h5 class="m-0">D.T.P</h5> </a>
+                                <a href="./dtp.html">
+                                    <h5 class="m-0">D.T.P</h5>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
@@ -408,16 +560,19 @@
                                 <img class="img-fluid" src="img/service-4.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <a href="#"> <h5 class="m-0">C.F.A (Tally)</h5> </a>
+                                <a href="./cfa.html">
+                                    <h5 class="m-0">C.F.A (Tally)</h5>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5 service-item wow zoomIn" data-wow-delay="0.9s">
-                    <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
+                    <div style=" background-color:  #FC9800;"
+                        class="position-relative  rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
                         <h3 class="text-white mb-3">Call Now</h3>
                         <p class="text-white mb-3">Get more info from our team</p>
-                        <h2 class="text-white mb-0">+91 7045267972</h2>
+                        <a style="color: white; text-decoration: none;" href="callto:7045267972"><h2 class="text-white mb-0">+91 7045267972</h2></a>
                     </div>
                 </div>
             </div>
@@ -433,9 +588,11 @@
                 <div class="col-lg-7 wow zoomIn" data-wow-delay="0.6s">
                     <div class="offer-text text-center rounded p-5">
                         <h1 class="display-5 text-white">Franchisee</h1>
-                        <p class="text-white mb-4">Feel free to know about the proceedure to get I-Brain Computer Academy Pvt. Ltd. Franchisee. we are here to assist you just drop a call, and get all the details on your whatsapp number.</p>
-                        <a href="appointment.html" class="btn btn-dark py-3 px-5 me-3">Call Now</a>
-                        </div>
+                        <p class="text-white mb-4">Feel free to know about the proceedure to get I-Brain Computer
+                            Academy Pvt. Ltd. Franchisee. we are here to assist you just drop a call, and get all the
+                            details on your whatsapp number.</p>
+                        <a href="call" class="btn btn-dark py-3 px-5 me-3">Call Now</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -449,61 +606,74 @@
             <div class="row g-5">
                 <div class="col-lg-5">
                     <div class="section-title mb-4">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">FRANCHISEE PARTNERS</h5>
+                        <h5 class="position-relative d-inline-block text-dark text-uppercase">FRANCHISEE PARTNERS
+                        </h5>
                         <h1 class="display-5 mb-0">We Offer Fair Prices for Computer Class Franchisee</h1>
                     </div>
                     <p class="mb-4">Here you can see our partners all over the states</p>
-                    <h5 class="text-uppercase text-primary wow fadeInUp" data-wow-delay="0.3s">Call for Franchisee</h5>
-                    <h1 class="wow fadeInUp" data-wow-delay="0.6s">+91 7045267972</h1>
+                    <h5 class="text-uppercase text-dark wow fadeInUp" data-wow-delay="0.3s">Call for Franchisee</h5>
+                    <a style="color: white; text-decoration: none;" href="callto:7045267972"><h1 class="wow fadeInUp" data-wow-delay="0.6s">+91 7045267972</h1></a>
                 </div>
                 <div class="col-lg-7">
                     <div class="owl-carousel price-carousel wow zoomIn" data-wow-delay="0.9s">
-                        <div class="price-item pb-4">
+                        <div class="price-item pb-4" style="height: 500px;">
                             <div class="position-relative">
-                                <img class="img-fluid rounded-top" src="img/price-1.jpg" alt="">
-                                <div class="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle" style="z-index: 2;">
-                                    <h2 class="text-primary m-0"></h2>
+                                <img class="img-fluid rounded-top" src="./academy-img/img1.webp" alt="">
+                                <div class="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle"
+                                    style="z-index: 2;">
+                                    <h2 class="text-dark m-0"></h2>
                                 </div>
                             </div>
-                            <div class="position-relative text-center bg-light border-bottom border-primary py-5 p-4">
+                            <div class="position-relative text-center bg-light border-bottom border-dark py-5 p-4">
                                 <h4>PAYAL COMPUTER ACADEMY</h4>
-                                <hr class="text-primary w-50 mx-auto mt-0">
-                                <div class="d-flex justify-content-between mb-3"><span>DIRECTOR</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <div class="d-flex justify-content-between mb-3"><span>MOBILE NO.</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <div class="d-flex justify-content-between mb-2"><span>ADDRESS</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <a href="appointment.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Appointment</a>
+                                <hr class="text-dark w-50 mx-auto mt-0">
+                                <div class="d-flex justify-content-between mb-3"><span>DIRECTOR</span><i
+                                        class="fa fa-check text-dark pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-3"><span>MOBILE NO.</span><i
+                                        class="fa fa-check text-dark pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-2"><span>ADDRESS</span><i
+                                        class="fa fa-check text-dark pt-1"></i></div>
+
                             </div>
                         </div>
-                        <div class="price-item pb-4">
+                        <div class="price-item pb-4" style="height: 500px;">
                             <div class="position-relative">
-                                <img class="img-fluid rounded-top" src="img/price-2.jpg" alt="">
-                                <div class="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle" style="z-index: 2;">
-                
-                                </div>
-                            </div>
-                            <div class="position-relative text-center bg-light border-bottom border-primary py-5 p-4">
-                                <h4>DIKSHA CLASSES</h4>
-                                <hr class="text-primary w-50 mx-auto mt-0">
-                                <div class="d-flex justify-content-between mb-3"><span>DIRECTOR</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <div class="d-flex justify-content-between mb-3"><span>MOBILE NO.</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <div class="d-flex justify-content-between mb-2"><span>ADDRESS</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <a href="appointment.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Appointment</a>
-                            </div>
-                        </div>
-                        <div class="price-item pb-4">
-                            <div class="position-relative">
-                                <img class="img-fluid rounded-top" src="img/price-3.jpg" alt="">
-                                <div class="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle" style="z-index: 2;">
+                                <img class="img-fluid rounded-top" src="./academy-img/img2.webp" alt="">
+                                <div class="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle"
+                                    style="z-index: 2;">
 
                                 </div>
                             </div>
-                            <div class="position-relative text-center bg-light border-bottom border-primary py-5 p-4">
+                            <div class="position-relative text-center bg-light border-bottom border-dark py-5 p-4">
+                                <h4>DIKSHA CLASSES</h4>
+                                <hr class="text-dark w-50 mx-auto mt-0">
+                                <div class="d-flex justify-content-between mb-3"><span>DIRECTOR</span><i
+                                        class="fa fa-check text-dark pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-3"><span>MOBILE NO.</span><i
+                                        class="fa fa-check text-dark pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-2"><span>ADDRESS</span><i
+                                        class="fa fa-check text-dark pt-1"></i></div>
+
+                            </div>
+                        </div>
+                        <div class="price-item pb-4" style="height: 500px;">
+                            <div class="position-relative">
+                                <img class="img-fluid rounded-top" src="./academy-img/img4.webp" alt="">
+                                <div class="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle"
+                                    style="z-index: 2;">
+
+                                </div>
+                            </div>
+                            <div class="position-relative text-center bg-light border-bottom border-dark py-5 p-4">
                                 <h4>GUIDANCE COMPUTER INSTITUTE</h4>
-                                <hr class="text-primary w-50 mx-auto mt-0">
-                                <div class="d-flex justify-content-between mb-3"><span>DIRECTOR :##########</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <div class="d-flex justify-content-between mb-3"><span>MOBILE NO.:##########</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <div class="d-flex justify-content-between mb-2"><span>ADDRESS :##########</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <a href="appointment.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Appointment</a>
+                                <hr class="text-dark w-50 mx-auto mt-0">
+                                <div class="d-flex justify-content-between mb-3"><span>DIRECTOR :##########</span><i
+                                        class="fa fa-check text-dark pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-3"><span>MOBILE NO.:##########</span><i
+                                        class="fa fa-check text-dark pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-2"><span>ADDRESS :##########</span><i
+                                        class="fa fa-check text-dark pt-1"></i></div>
+
                             </div>
                         </div>
                     </div>
@@ -515,45 +685,164 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid bg-primary bg-testimonial py-5 my-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-2">
+    <div style=" height: 150px; place-content: center; place-items: center;" class="container-fluid  wow fadeInUp"
+        data-wow-delay="0.1s">
+        <div class="container " style="place-self: center;">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
-                    <div class="owl-carousel testimonial-carousel rounded p-5 wow zoomIn" data-wow-delay="0.6s">
+                    <div style=" height: full; padding: 5px; border: 2px solid rgb(24, 9, 76);"
+                        class="owl-carousel testimonial-carousel rounded wow zoomIn" data-wow-delay="0.6s">
+
+                        <div class="testimonial-item text-center text-white"
+                            style=" display: grid; place-content: center; place-items: center;">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/1.jpeg" alt="">
+                        </div>
+
+
                         <div class="testimonial-item text-center text-white">
-                            <img class="img-fluid mx-auto rounded mb-4" src="img/testimonial-1.jpg" alt="">
-                            <hr class="mx-auto w-25">
-                            <h4 class="text-white mb-0">Client Name</h4>
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/2.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/3.jpeg" alt="">
                         </div>
 
 
-                            <div class="testimonial-item text-center text-white">
-                            <img class="img-fluid mx-auto rounded mb-4" src="img/testimonial-1.jpg" alt="">
-                            <hr class="mx-auto w-25">
-                            <h4 class="text-white mb-0">Client Name</h4>
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/4.jpeg" alt="">
                         </div>
 
-                            <div class="testimonial-item text-center text-white">
-                            <img class="img-fluid mx-auto rounded mb-4" src="img/testimonial-1.jpg" alt="">
-                            <hr class="mx-auto w-25">
-                            <h4 class="text-white mb-0">Client Name</h4>
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/5.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/6.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/7.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/8.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/9.jpeg" alt="">
+                        </div>
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/10.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/11.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/12.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/13.jpeg" alt="">
+                        </div>
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/14.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/15.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/16.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/17.jpeg" alt="">
+                        </div>
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/18.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/19.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/20.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/21.jpeg" alt="">
+                        </div>
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/22.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/23.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/24.jpeg" alt="">
+                        </div>
+
+                        <div class="testimonial-item text-center text-white">
+                            <img class="img-fluid mx-auto rounded "
+                                style="width: 150px; height: 100px; box-shadow: 1px 0px 4px 1px black;"
+                                src="ibrainImg/25.jpeg" alt="">
                         </div>
 
 
-                            <div class="testimonial-item text-center text-white">
-                            <img class="img-fluid mx-auto rounded mb-4" src="img/testimonial-1.jpg" alt="">
-                            <hr class="mx-auto w-25">
-                            <h4 class="text-white mb-0">Client Name</h4>
-                        </div>
-
-                            <div class="testimonial-item text-center text-white">
-                            <img class="img-fluid mx-auto rounded mb-4" src="img/testimonial-1.jpg" alt="">
-                            <hr class="mx-auto w-25">
-                            <h4 class="text-white mb-0">Client Name</h4>
-                        </div>
-
-
-                        
                     </div>
                 </div>
             </div>
@@ -564,7 +853,7 @@
     <!-- Newsletter Start -->
     <!-- <div class="container-fluid position-relative pt-5 wow fadeInUp" data-wow-delay="0.1s" style="z-index: 1;">
         <div class="container">
-            <div class="bg-primary p-5">
+            <div style=" background-color:  #FC9800;" class=" p-5">
                 <form class="mx-auto" style="max-width: 600px;">
                     <div class="input-group">
                         <input type="text" class="form-control border-white p-3" placeholder="Your Email">
@@ -575,165 +864,9 @@
         </div>
     </div> -->
     <!-- Newsletter End -->
-    
-    
+
+
     <!--add slider for add multipal images-->
-
-    <div class="" style="width: 100%;  position: absolute; margin-top: 120px; z-index: 11; height: auto; display: flex; justify-content: space-between; padding:2px 20px; ">
-        <button class="slidBtn2" onclick="pre()">PREVIOUS</button>
-        <button class="slidBtn2" onclick="next()">NEXT</button>
-      
-    </div>
-   
-
-    <main class="maintag">
-        <div class="mainBox">
-
-            <div class="imgBox" id="imgBoxx">
-                <img class="sliderImg"
-                    src="./ibrainImg/32.jpeg" alt=""
-                    class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/5.jpeg"
-                    alt="" class="">
-            </div>
-            
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/9.jpeg"
-                    alt="" class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/10.jpeg"
-                    alt="" class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/11.jpeg"
-                    alt="11" class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/12.jpeg"
-                    alt="12" class="">
-            </div>
-
-
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/14.jpeg"
-                    alt="" class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/15.jpeg"
-                    alt="" class="">
-            </div>
-            
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/18.jpeg"
-                    alt="" class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/19.jpeg"
-                    alt="" class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/20.jpeg"
-                    alt="" class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/21.jpeg"
-                    alt="" class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/22.jpeg"
-                    alt="" class="">
-            </div>
-            
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/24.jpeg"
-                    alt="" class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/25.jpeg"
-                    alt="" class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/26.jpeg"
-                    alt="" class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/27.jpeg"
-                    alt="" class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/28.jpeg"
-                    alt="" class="">
-            </div>
-            <div class="imgBox">
-                <img class="sliderImg"
-                    src="./ibrainImg/29.jpeg"
-                    alt="" class="">
-            </div>
-            
-
-        </div>
-    </main>
-    <h1 id="h11"></h1>
-    <script>
-        const imgBox = document.querySelectorAll('.imgBox');
-
-        var value = 0;
-        let nu;
-        imgBox.forEach(function (img,index) {
-            img.style.marginLeft = index * 100 + '%';
-            nu=index;
-         });
-
-        const slideImgBtn = () => {
-            imgBox.forEach(
-                (img,index) => {
-                    img.style.transform = `translateX(-${value * 100}%)`;
-                    
-                }
-            )
-        }
-        function pre() {
-            if (value == 0) {
-                value = imgBox.length - 1;
-                slideImgBtn();
-            } else {
-
-                value--;
-                slideImgBtn();
-            }
-        }
-
-        function next() {
-            if (value == imgBox.length - 1) {
-                value = 0;
-                slideImgBtn();
-            } else {
-
-                value++;
-                slideImgBtn();
-            }
-        }
-</script>
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px;">
         <div class="container pt-5">
@@ -741,61 +874,87 @@
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-white mb-4">Quick Links</h3>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Registrations verification  </a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Result Verification</a>
-                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Student Login</a>
-                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Admission Form</a>
-                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact For Franchisee</a>
-                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Director's Message</a>
-                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Mentors</a>
-                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Gallery</a>
+                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right  me-2"></i>Home</a>
+                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right  me-2"></i>About
+                            Us</a>
+                        <a class="text-light mb-2" href="#"><i
+                                 class="bi bi-arrow-right  me-2"></i>Registrations verification </a>
+                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right  me-2"></i>Result
+                            Verification</a>
+                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right  me-2"></i>Student
+                            Login</a>
+                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right  me-2"></i>Admission
+                            Form</a>
+                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right  me-2"></i>Contact
+                            For Franchisee</a>
+                        <a class="text-light mb-2" href="#"><i
+                                 class="bi bi-arrow-right  me-2"></i>Gallery</a>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-white mb-4">Corporate Office</h3>
-                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>I-Brain Computer Academy Pvt. Ltd.</p>
-                    <p class="mb-2">House No.777/7, Ward No.33, Mohan Nagar Chapra Bihar</p>
-                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 7045267972</p>
+                     <p class="mb-2"><i class="bi bi-geo-alt  me-2"></i>I-Brain Computer Academy Pvt. Ltd.
+                    </p>
+                    <p class="mb-2">Mohan Nagar Back Side Of LNB High School Chapra Bihar(841301)</p>
+                     <a style="color: white; text-decoration: none;" href="callto:7045267972"><p class="mb-0"><i class="bi bi-telephone  me-2"></i>+91 7045267972</p></a>
                 </div>
-                 <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <h3 class="text-white mb-4">Regional Office</h3>
-                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>I-Brain Computer Academy Pvt. Ltd.</p>
+                     <p class="mb-2"><i class="bi bi-geo-alt  me-2"></i>I-Brain Computer Academy Pvt. Ltd.
+                    </p>
                     <p class="mb-2">Kachhari Station Road, Chapra Bihar (841301)</p>
-                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@ibcaedu.com</p>
-                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 7045267972</p>
+                     <p class="mb-2"><i class="bi bi-envelope-open  me-2"></i>info@ibcaedu.com</p>
+                     <a style="color: white; text-decoration: none;" href="callto:7045267972"><p class="mb-0"><i class="bi bi-telephone  me-2"></i>+91 7045267972</p></a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-white mb-4">Follow Us</h3>
                     <div class="d-flex">
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                        <a style="background: #FC9800; color: white; font: bold;"
+                            class="btn btn-lg  btn-lg-square rounded me-2"
+                            href="https://www.facebook.com/profile.php?id=100072648942811&mibextid=ZbWKwL"><i
+                                class="fab fa-facebook-f fw-normal"></i></a>
+                        <a style="background: #FC9800; color: white; font: bold;"
+                            class="btn btn-lg  btn-lg-square rounded me-2"
+                            href="https://www.instagram.com/reel/C6L2xx6vmuS/?igsh=cG41Nm1ma3ZjcTZq"><i
+                                class="fab fa-instagram fw-normal"></i></a>
+                        <a style="background: #FC9800; color: white; font: bold;"
+                            class="btn btn-lg  btn-lg-square rounded "
+                            href="https://www.youtube.com/@ibraincomputeracademy"><i class="bi bi-youtube"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid text-light py-4" style="background: #051225;">
+
+    <!--map start-->
+    <div class="" style="width: cover; ">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653810.123625458!2d79.51736095865458!3d26.578792824351435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992bbb673f5c52d%3A0x911b2b5de85d469a!2si%20Brain%20Computer%20Academy%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1718106354686!5m2!1sen!2sin"
+            height="350" style="border:0; width:100%;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!--map end-->
+
+    <div class="container-fluid text-light py-4" style="background: #051225; margin-top: -10px;">
         <div class="container">
             <div class="row g-0">
                 <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="#">I-BRAIN COMPUTER ACADEMY</a>. All Rights Reserved.</p>
+                    <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="#">I-BRAIN COMPUTER ACADEMY</a>.
+                        All Rights Reserved.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Powered by <a class="text-white border-bottom" href="#">FOXDIGITAL GROUPS</a></p>
+                    <p class="mb-0">Powered by <a class="text-white border-bottom"
+                            href="https://gyanvidigital.com/">Gyanvi Digital Gorakhpur</a></p>
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a style="background: #FC9800; color: white; font: bold;" href="#"
+        class="btn btn-lg  btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
